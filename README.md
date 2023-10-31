@@ -50,8 +50,32 @@ DAI Token: DAI, a stablecoin pegged to the US dollar, is used as the base curren
 ❗ Common Errors:
 
 "this token does not exist": Ensure the token is added via addToken function and referenced correctly.
+
 "dai balance too low": Ensure you have enough DAI for buy limit orders.
+
 "token balance too low": Ensure you have enough of the token you're trying to sell for sell limit orders.
+
+### Oracle:
+
+Chainlink Oracle is used to fetch price of pairs. Currently it is used only to fetch the price in smart contract (Dex.sol). These prices can be displyed to users for real time prices of assets on the exchange.
+
+### Upgradeable Smart Contract:
+
+DexUpgradeable.sol is integrated with upgradeable funcitonality using openzeppelin upgradeable contracts. This allows to update smart contract in future.
+
+Contract can be paused at any time by admin incase something goes wrong or there is an update to be made.
+
+### Scripts:
+
+Etherjs scripts for deploying smart contracts.
+
+**Run the scripts**:
+
+```bash
+npx hardhat run scripts/<'filename'> --network <'networkname'>
+```
+
+---
 
 There is a file named Potential Extensions that contains suggestions or future implementations that can be done to make this protocol scalable and more robust.
 
