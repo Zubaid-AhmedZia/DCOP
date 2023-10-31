@@ -15,26 +15,37 @@ DAI Token: DAI, a stablecoin pegged to the US dollar, is used as the base curren
 ## 🔧 Setting Up & Running Tests
 
 ### Prerequisites:
+
 - [Node.js](https://nodejs.org/)
 - [Hardhat](https://hardhat.org/)
 - [Ethers.js](https://docs.ethers.io/v5/)
 
 1. **Clone the repository**:
+
    ```bash
    git clone <repository-url>
    cd <repository-directory>
 
+   ```
+
 2. **Install Dependencies**:
+
    ```bash
    npm install
 
+   ```
+
 3. **Compile the contracts**:
+
    ```bash
    npx hardhat compile
 
+   ```
+
 4. **Run the tests**:
    ```bash
-   npx hardhat test  
+   npx hardhat test
+   ```
 
 ❗ Common Errors:
 
@@ -42,8 +53,8 @@ DAI Token: DAI, a stablecoin pegged to the US dollar, is used as the base curren
 "dai balance too low": Ensure you have enough DAI for buy limit orders.
 "token balance too low": Ensure you have enough of the token you're trying to sell for sell limit orders.
 
+There is a file named Potential Extensions that contains suggestions or future implementations that can be done to make this protocol scalable and more robust.
+
 🤝 Contributing:
 
 Fork the repository, create your feature branch, commit your changes, and raise a pull request to main.
-   
-   
