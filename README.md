@@ -21,18 +21,6 @@ DAI Token: DAI, a stablecoin pegged to the US dollar, is used as the base curren
    git clone <repository-url>
    cd <repository-directory>
 
-   2. **Install Dependencies**:
-   ```bash
-   npm install
-
-   3. **Compile the contracts**:
-   ```bash
-   npx hardhat compile
-
-   4. **Run the tests**:
-   ```bash
-   npx hardhat test
-
 ❗ Common Errors:
 
 "this token does not exist": Ensure the token is added via addToken function and referenced correctly.
