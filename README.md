@@ -5,8 +5,11 @@ An Ethereum-based decentralized exchange where users can trade ERC20 tokens.
 <h2>Features</h2>
 
 Token Management: Easily add any ERC20 tokens to the DEX for trading.
+
 Limit Orders: Users can create sell or buy limit orders.
+
 Market Orders: Users can create sell or buy market orders.
+
 DAI Token: DAI, a stablecoin pegged to the US dollar, is used as the base currency for trades.
 
 ## 🔧 Setting Up & Running Tests
