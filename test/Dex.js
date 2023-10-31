@@ -19,7 +19,7 @@ describe("Dex", function () {
     dai.faucet(owner, ethers.parseEther("100"));
     //console.log(await TokenA.getAddress());
 
-    dex = await Dex.deploy();
+    dex = await Dex.deploy("0x694AA1769357215DE4FAC081bf1f309aDC325306");
 
     await TokenA.approve(dex.target, ethers.parseEther("1000000"));
     await TokenB.approve(dex.target, ethers.parseEther("1000000"));
